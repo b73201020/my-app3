@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>現任直轄市議員</title>
+   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+   <!--link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" /-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="http://mobile.n.yam.com/m/css/font-awesome-ie7.css">
+	<![endif]-->
+	<link rel="stylesheet" href="css/layout.css" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>		
+	<![endif]-->
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<!--script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script-->
+</head>
+<body>
+<div id="index" class="wrap" data-role="page">
+<header id="header" data-role="header" data-position="fixed">
+<h1><a href="#" data-ajax="false">yam news</a></h1>
+<a class="menuSwitch" href="#"><i class="icon-reorder"></i></a>
+<a href="P0.htm" data-ajax="false">&nbsp;<i class="icon-home"></i></a>
+
+
+<nav class="menuList">
+<ul class="colList">
+    <li><a href="#" data-ajax="false">台北市</a></li>
+    <li><a href="#" data-ajax="false">新北市</a></li>
+    <li><a href="#" data-ajax="false">台中市</a></li>
+    <li><a href="#" data-ajax="false">台南市</a></li>  
+    <li><a href="#" data-ajax="false">高雄市</a></li>
+</ul>    
+</nav>
+<!-- ======================== menuList end ======================== -->
+</header>
+<!-- ======================== #header end ======================== -->
+
+        
+<div id="midWrap" data-role="content">
+			                        
+<article id="mainContent" role="main">
+
+    <div class="navLink mainNav" data-role="navbar">
+    <!--div class="navLink" data-role="navbar"-->
+    <ul>
+        <li><a href="" data-ajax="false">
+            <i class="icon-bullhorn"></i>頭條</a></li>
+        <li><a href="cat.htm" data-rel="dialog">
+            <i class="icon-th"></i>類別</a></li>
+        <li><a href="hot.php" data-ajax="false">
+            <i class="icon-star"></i>熱門</a></li>
+        <li><a href="focus.php" data-ajax="false">
+            <i class="icon-camera-retro"></i>圖輯</a></li>
+            
+    </ul>
+    
+    </div>
+<!-- ======================== navLink end ======================== -->
+                            
+    <ul id="newsList" data-role="listview">
+       <li><a href="P1.htm" data-ajax="false"><h2>吳　碧珠</h2></a></li>
+       <li><a href="P2.htm" data-ajax="false"><h2>周　柏雅</h2></a></li>
+       <li><a href="P3.htm" data-ajax="false"><h2>何　志偉</h2></a></li>
+       <li><a href="P3.htm" data-ajax="false"><h2>吳　思瑤</h2></a></li>
+       <li><a href="P3.htm" data-ajax="false"><h2>汪　志冰</h2></a></li>
+       <li><a href="P3.htm" data-ajax="false"><h2>林　世宗</h2></a></li>
+    </ul>
+</article>
+<!-- ======================== mainContent end ======================== -->
+                        
+</div>
+
+<form>
+    <label for="flip-checkbox-1">Flip toggle switch checkbox:</label>
+    <input type="checkbox" data-role="flipswitch" name="flip-checkbox-1" id="flip-checkbox-1">
+</form>
+        
+<!-- ======================== midWrap / content end ======================== -->
+                
+
+
+<footer id="footer" data-role="footer">
+    <h2>更多內容：</h2>
+        <ul class="colList">
+        <li><a href="#" data-ajax="false">國民黨</a></li>
+        <li><a href="video.php" data-ajax="false">民進黨</a></li>
+        <li><a href="cat.php?cat=society" data-ajax="false">無黨</a></li>
+        </ul>
+    <div>
+        <span>
+        <a class="curr" href="#"><i class="icon-mobile-phone"></i>&nbsp;攜帶版</a>
+                                                &nbsp;|&nbsp;
+        <a onclick="$.get('pc_version.php', function(data) { location.href = '#';});"><i class="icon-laptop"></i>&nbsp;電腦版</a>
+        </span>
+        <small>CSIM@PU.EDU.TW &copy; 2012</small>
+    </div>
+</footer>
+                
+</div>
+    
+    
+    <!-- ======================== wrap / page end ======================== -->
+	
+	<script src="js/klass.min.js"></script>
+	<script src="js/code.photoswipe.jquery-3.0.5.min.js"></script>
+	<script src="js/jq_plugin.js"></script>
+	<script src="js/jq_index.js"></script>
+       
+
+
+</body>
+</html>
